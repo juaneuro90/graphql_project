@@ -43,11 +43,11 @@ module.exports = buildSchema(`
         orderUpdated: String
     }
     type Query {
-        listProducts(orderBy: String, sort: String, filter: String): [Product]
+        listProducts(orderBy: String, Sort: String, Filter: String): [Product]
         readProductInfo(id: ID): Product
-        listOrders(orderBy: String, sort: String): [Order]
+        listOrders(orderBy: String, Sort: String): [Order]
         readOrderInfo(id: ID): Order
-        listOrderItems(id: ID, orderBy: String, sort: String, filter: String): [LineItems]
+        listOrderItems(id: ID, orderBy: String, Sort: String, Filter: String): [LineItems]
     } 
     type Mutation {
         createProduct(name: String, description: String, price: Float): Boolean
