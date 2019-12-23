@@ -1,0 +1,33 @@
+{
+  "name": "graphql_project",
+  "version": "1.0.0",
+  "description": "Code Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start server.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juaneuro90/graphql_project.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Juan Paredes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juaneuro90/graphql_project/issues"
+  },
+  "homepage": "https://github.com/juaneuro90/graphql_project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "mysql2": "^2.0.2",
+    "pm2": "^4.2.1"
+  }
+}
